@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "874b0b9f-ee25-4242-9f34-c00e90bea251": {
+      "ProjectGuid": "874b0b9f-ee25-4242-9f34-c00e90bea251",
+      "DisplayName": "DigiProc",
+      "ColorIndex": 0
+    },
+    "9ed8a476-b572-437b-993c-4063f4be7bbe": {
+      "ProjectGuid": "9ed8a476-b572-437b-993c-4063f4be7bbe",
+      "DisplayName": "eProcurementAPI",
+      "ColorIndex": 1
+    },
+    "8697a087-8446-4877-9aec-9bd5ec182575": {
+      "ProjectGuid": "8697a087-8446-4877-9aec-9bd5ec182575",
+      "DisplayName": "DigiProc.Data",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "2a7deeb4-ff56-40ba-9209-567205960b38": {
+      "ProjectGuid": "2a7deeb4-ff56-40ba-9209-567205960b38",
+      "DisplayName": "DigiProc.Models",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

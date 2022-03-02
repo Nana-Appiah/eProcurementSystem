@@ -1,0 +1,87 @@
+﻿{
+   "CodeGenerationMode": 2,
+   "ContextClassName": "EprocurementdbContext",
+   "ContextNamespace": "Data",
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": "Models",
+   "OutputContextPath": "Data",
+   "OutputPath": "Models",
+   "ProjectRootNamespace": "DigiProc.Data",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[Committee]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CommitteeMember]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Currency]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FinancialYear]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Item]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemCategory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[LPO]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PriorityType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Requisition]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RequisitionItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RequisitionStatus]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RequisitionType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Vendor]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "EMGH-HQ-QCK-01.EProcurementDb",
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": false,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoConstructor": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": false
+}

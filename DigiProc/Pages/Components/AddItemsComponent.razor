@@ -1,0 +1,43 @@
+﻿
+<Row>
+    <Column ColumnSize="ColumnSize.Is9">
+        <Fields>
+            <Validation Validator="ValidationRule.IsNotEmpty">
+                <FieldLabel>Item Name</FieldLabel>
+                <Field>
+                   <TextEdit Placeholder="Item Name" />
+                </Field>
+
+                <FieldLabel>Item Code</FieldLabel>
+                <Field>
+                   <TextEdit Placeholder="Item Code" />
+                </Field>
+
+                <FieldLabel>Min Stock Level</FieldLabel>
+                <Field>
+                   <NumericEdit Placeholder="Min Stock Level" Min="1" Max="100000" />
+                </Field>
+
+                <FieldLabel>SI Unit</FieldLabel>
+                @*<Field ColumnSize="ColumnSize.Is12">
+                    <Autocomplete TItem = "AssessmentSubject"
+                        TValue="int"
+                        Data = "@subjectList"
+                
+                        @bind-SelectedText="selectedAutoCompleteText"
+                        TextField="@(( item ) => item.SubjectName)"
+                        ValueField="@(( item ) => item.Id)"
+                        Placeholder="Type to search for subject..."
+                        Filter="AutocompleteFilter.StartsWith"
+                        FreeTyping
+                        SelectedValueChanged = "@changedValueWRTANS"
+                        CustomFilter="@(( item, searchValue ) => item.SubjectName.IndexOf( searchValue, 0, StringComparison.CurrentCultureIgnoreCase ) >= 0 )">
+                    </Autocomplete>
+                </Field>*@
+            </Validation>
+        </Fields>
+    </Column>
+    <Column ColumnSize="ColumnSize.Is3">
+        
+    </Column>
+</Row>

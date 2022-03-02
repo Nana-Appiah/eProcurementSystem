@@ -1,0 +1,37 @@
+﻿@inherits LayoutComponentBase
+@inject NavigationManager navM
+
+<div class="page">
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+
+    <main>
+        <div class="top-row px-4">
+            @*<a href="https://docs.microsoft.com/aspnet/" onclick="@Logout" target="_blank">About</a>*@
+            <a onclick="@Logout">Exit Application</a>
+        </div>
+
+        <article class="content px-4">
+            <ErrorBoundary>
+                @Body
+            </ErrorBoundary>
+        </article>
+    </main>
+</div>
+
+@code{
+
+    private async Task Logout()
+    {
+        //task handles the logging out of a user
+        //clear the local storage as well
+        //var bln = await auth.Logout();
+        //if (bln)
+        //{
+            navM.NavigateTo("/");
+        //}
+
+    }
+
+}

@@ -1,0 +1,13 @@
+G:\Dev_Repository\Projects\Nana\Apps\eProcurement\DigiProc.Models\bin\Debug\net6.0\DigiProc.Models.deps.json
+G:\Dev_Repository\Projects\Nana\Apps\eProcurement\DigiProc.Models\bin\Debug\net6.0\DigiProc.Models.runtimeconfig.json
+G:\Dev_Repository\Projects\Nana\Apps\eProcurement\DigiProc.Models\bin\Debug\net6.0\DigiProc.Models.dll
+G:\Dev_Repository\Projects\Nana\Apps\eProcurement\DigiProc.Models\bin\Debug\net6.0\ref\DigiProc.Models.dll
+G:\Dev_Repository\Projects\Nana\Apps\eProcurement\DigiProc.Models\bin\Debug\net6.0\DigiProc.Models.pdb
+G:\Dev_Repository\Projects\Nana\Apps\eProcurement\DigiProc.Models\obj\Debug\net6.0\DigiProc.Models.GeneratedMSBuildEditorConfig.editorconfig
+G:\Dev_Repository\Projects\Nana\Apps\eProcurement\DigiProc.Models\obj\Debug\net6.0\DigiProc.Models.AssemblyInfoInputs.cache
+G:\Dev_Repository\Projects\Nana\Apps\eProcurement\DigiProc.Models\obj\Debug\net6.0\DigiProc.Models.AssemblyInfo.cs
+G:\Dev_Repository\Projects\Nana\Apps\eProcurement\DigiProc.Models\obj\Debug\net6.0\DigiProc.Models.csproj.CoreCompileInputs.cache
+G:\Dev_Repository\Projects\Nana\Apps\eProcurement\DigiProc.Models\obj\Debug\net6.0\DigiProc.Models.dll
+G:\Dev_Repository\Projects\Nana\Apps\eProcurement\DigiProc.Models\obj\Debug\net6.0\ref\DigiProc.Models.dll
+G:\Dev_Repository\Projects\Nana\Apps\eProcurement\DigiProc.Models\obj\Debug\net6.0\DigiProc.Models.pdb
+G:\Dev_Repository\Projects\Nana\Apps\eProcurement\DigiProc.Models\obj\Debug\net6.0\DigiProc.Models.genruntimeconfig.cache

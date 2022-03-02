@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "R263wm7nAuN5BwyEQBcTFqrY4ASdXv7GwNm9lHlFeLs=",
+  "Source": "eProcurementAPI",
+  "BasePath": "_content/eProcurementAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

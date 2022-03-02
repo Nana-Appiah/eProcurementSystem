@@ -1,0 +1,103 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = browser
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = true
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = DigiProc
+build_property.RootNamespace = DigiProc
+build_property.ProjectDir = G:\Dev_Repository\Projects\Nana\Apps\eProcurement\DigiProc\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = G:\Dev_Repository\Projects\Nana\Apps\eProcurement\DigiProc
+build_property._RazorSourceGeneratorDebug = 
+
+[G:/Dev_Repository/Projects/Nana/Apps/eProcurement/DigiProc/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Dev_Repository/Projects/Nana/Apps/eProcurement/DigiProc/Pages/Components/AddCategoryComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xBZGRDYXRlZ29yeUNvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Dev_Repository/Projects/Nana/Apps/eProcurement/DigiProc/Pages/Components/AddItemsComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xBZGRJdGVtc0NvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Dev_Repository/Projects/Nana/Apps/eProcurement/DigiProc/Pages/Components/DashboardComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xEYXNoYm9hcmRDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Dev_Repository/Projects/Nana/Apps/eProcurement/DigiProc/Pages/Components/TitleComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xUaXRsZUNvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Dev_Repository/Projects/Nana/Apps/eProcurement/DigiProc/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Dev_Repository/Projects/Nana/Apps/eProcurement/DigiProc/Pages/Dashboard/Dashboard.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFzaGJvYXJkXERhc2hib2FyZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Dev_Repository/Projects/Nana/Apps/eProcurement/DigiProc/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Dev_Repository/Projects/Nana/Apps/eProcurement/DigiProc/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Dev_Repository/Projects/Nana/Apps/eProcurement/DigiProc/Pages/Menus/AddCategory.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVudXNcQWRkQ2F0ZWdvcnkucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Dev_Repository/Projects/Nana/Apps/eProcurement/DigiProc/Pages/Menus/AddCommittee.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVudXNcQWRkQ29tbWl0dGVlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Dev_Repository/Projects/Nana/Apps/eProcurement/DigiProc/Pages/Menus/AddItems.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVudXNcQWRkSXRlbXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Dev_Repository/Projects/Nana/Apps/eProcurement/DigiProc/Pages/Menus/AddVendor.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVudXNcQWRkVmVuZG9yLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Dev_Repository/Projects/Nana/Apps/eProcurement/DigiProc/Pages/Requisitions/ApproveRequisition.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVxdWlzaXRpb25zXEFwcHJvdmVSZXF1aXNpdGlvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Dev_Repository/Projects/Nana/Apps/eProcurement/DigiProc/Pages/Requisitions/CreateLPO.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVxdWlzaXRpb25zXENyZWF0ZUxQTy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Dev_Repository/Projects/Nana/Apps/eProcurement/DigiProc/Pages/Requisitions/ManageRequisition.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVxdWlzaXRpb25zXE1hbmFnZVJlcXVpc2l0aW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Dev_Repository/Projects/Nana/Apps/eProcurement/DigiProc/Pages/Requisitions/NewRequisition.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVxdWlzaXRpb25zXE5ld1JlcXVpc2l0aW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Dev_Repository/Projects/Nana/Apps/eProcurement/DigiProc/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Dev_Repository/Projects/Nana/Apps/eProcurement/DigiProc/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Dev_Repository/Projects/Nana/Apps/eProcurement/DigiProc/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-qt59s48vwl
+
+[G:/Dev_Repository/Projects/Nana/Apps/eProcurement/DigiProc/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-hd0gk3365f

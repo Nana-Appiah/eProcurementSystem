@@ -1,0 +1,107 @@
+﻿@inject IItemCategoryService itemService
+@using DigiProc.Models.Domain
+
+@if(itemCategories == null)
+{
+    <div class="spinner">Loading...</div>
+}
+else
+{
+
+    <Row>
+            <Column ColumnSize="ColumnSize.Is6">
+                    <Alert Color="Color.Primary" Visible="true">
+                    <Validations @ref="validations"  Mode="ValidationMode.Manual" Model="@model">
+                        <Validation Validator="@ValidationRule.IsNotEmpty">
+                            <Field>
+                                <Addons>
+                                    <TextEdit Placeholder="Category Name" @bind-Text="@model.CategoryName" />
+                                </Addons>
+
+                                <Addons>
+                                    <TextEdit Placeholder="Category Description" @bind-Text="@model.CategoryDescription" />
+                                </Addons>
+                            </Field> 
+                        </Validation>
+                    </Validations>
+                    <Button Color="Color.Primary" Block Clicked="@OnItemCategorySaved">Save Training Domain</Button>
+                    </Alert>
+            </Column>
+
+            <Column ColumnSize="ColumnSize.Is6">
+                <Alert Color="Color.Primary" Visible="true">
+                    <DataGrid TItem="ItemCategory" Data="@itemCategories"
+                    @bind-SelectedRow="@model" 
+                    Responsive 
+                    Hoverable = "true"
+                    Striped = "true"
+                    Narrow = "true"
+                    Bordered="true"
+                
+                    SelectedRowStyling="@OnSelectedRowStyling"
+                    Virtualize 
+                    VirtualizeOptions="@(new() { DataGridHeight = "250px"})">
+                        <DataGridCommandColumn TItem="ItemCategory" />
+                        <DataGridColumn TItem="ItemCategory" Field="@nameof(ItemCategory.CategoryId)" Caption="#" Sortable="false" />
+                        <DataGridColumn TItem="ItemCategory" Field="@nameof(ItemCategory.CategoryName)" Caption="Category Name" Sortable="false" />
+                    </DataGrid>
+                </Alert>
+            </Column>
+    </Row>
+    
+}
+
+@code{
+    private Validations validations;
+    private IEnumerable<ItemCategory> itemCategories;
+    private ItemCategory model = new ItemCategory();
+
+    protected override async Task OnInitializedAsync()
+    {
+        itemCategories = await GetItemCategoriesAsync();
+        await base.OnInitializedAsync();
+    }
+
+    private void OnSelectedRowStyling(ItemCategory itemCategory, DataGridRowStyling styling)
+    {
+        styling.Background = Background.Success;
+    }
+
+    private async Task OnItemCategorySaved()
+    {
+        try
+        {
+            if (await validations.ValidateAll())
+            {
+                var status = await itemService.SaveItemCategory(model);
+                if (status)
+                {
+                    itemCategories = null;
+                    StateHasChanged();
+                    await ClearInputFields();
+                    await GetItemCategoriesAsync();
+                }
+            }
+        }
+        catch(Exception x)
+        {
+            StateHasChanged();
+        }
+        
+    }
+
+    private Task ClearInputFields()
+    {
+        model.CategoryName = string.Empty;
+        model.CategoryDescription = string.Empty;
+        model.CategoryId = 0;
+
+        return Task.CompletedTask;
+    }
+
+    private async Task<IEnumerable<ItemCategory>> GetItemCategoriesAsync()
+    {
+        return await itemService.GetItemCategoriesAsync(); 
+    }
+
+}
